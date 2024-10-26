@@ -1,7 +1,7 @@
 import type {AxiosInstance} from "axios";
 import type {User} from "@/types";
 import type {Readable, Editable, Createable, Deleteable} from "@/services/types";
-import {UserModel} from "@/models/User.model";
+import {UserModel} from "@/models/user.model";
 
 export class UsersService implements Readable<User>, Createable<User>, Deleteable<User>, Editable<User> {
 

@@ -1,3 +1,4 @@
+<script setup></script>
 <template>
   <div class="about container mx-auto p-6">
       <h1 class="text-2xl font-bold mb-4 text-gray-800">What is Vue 3?</h1>

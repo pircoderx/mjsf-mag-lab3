@@ -1,7 +1,7 @@
 import type {AxiosInstance} from "axios";
 import type {Product} from "@/types";
 import type {Readable, Editable, Createable, Deleteable} from "@/services/types";
-import {ProductModel} from "@/models/category.model";
+import {ProductModel} from "@/models/product.model";
 
 export class ProductsService implements Readable<Product> {
 
